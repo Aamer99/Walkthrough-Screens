@@ -1,7 +1,9 @@
 # Walkthrough-Screens
 
-it is a screen shown to the user when he installs and starts the app after that not shown to the user if he starts again. 
-before you use it you need to 
+<h5>it is a screen that displays to the user if the app is recently installed from the store, it works on iPhones and iPads.   </h5>
+
+
+### - before you use it you need to 
 1. change the data from the Data file.
 2. the images are stored in the Assets file so you need to change it from there. 
 
