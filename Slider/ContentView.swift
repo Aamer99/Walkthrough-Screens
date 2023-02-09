@@ -7,20 +7,22 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+struct ContentView: View {
+
+    @AppStorage("newUser") var newUser = true
+   
+    var body: some View {
+        
+        if newUser {
+            Slider()
+        } else {
+            
+            HStack{
+                Text("Hi")
+                
+            }
+        }
+       
     }
 }
